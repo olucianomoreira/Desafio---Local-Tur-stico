@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+#principal{
+    margin: 88px auto 137px;
+    width: 1120px;
+    box-sizing: border-box;
+}
+
+.destaque {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E1624F;
+    padding-bottom: 8px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+#foto {
+    margin: 40px 0;
+}
+
+img{
+    width: 100%;
+    border-radius: 28px;
+}
+
+i{
+    font-style: italic;
+    text-align: center;
+    margin-top: 24px;
+}
