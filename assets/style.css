@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 :root{
@@ -12,13 +13,20 @@
     margin: 88px auto 137px;
     width: 1120px;
     box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+    padding: 88px 80px 130px;
 }
 
+#title{
+    margin-bottom: 40px;
+    
+}
 .destaque {
     font-weight: bold;
     text-transform: uppercase;
     color: #E1624F;
     padding-bottom: 8px;
+    
 }
 
 h1{
@@ -27,17 +35,36 @@ h1{
 }
 
 
-#foto {
-    margin: 40px 0;
-}
-
-img{
+img {
+    margin: 40px 0 24px 0;
     width: 100%;
     border-radius: 28px;
+    object-fit: cover;
+    height: 660px;
 }
 
-i{
+
+
+.italic{
     font-style: italic;
     text-align: center;
     margin-top: 24px;
 }
+
+.divider{
+    width: 100%;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin: 40px 0 84px;
+}
+
+
+.locals img{
+    height: 350px;
+    object-fit: cover;
+}
+
+#list .destaque{
+    padding-bottom: 2px;
+}
+
