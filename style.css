@@ -10,11 +10,11 @@
 }
 
 #principal{
-    margin: 88px auto 137px;
+    margin: 88px auto 58px;
     width: 1120px;
     box-sizing: border-box;
     background-color: rgb(245, 245, 245);
-    padding: 88px 80px 130px;
+    padding: 88px 80px 72px;
 }
 
 #title{
@@ -68,3 +68,40 @@ img {
     padding-bottom: 2px;
 }
 
+ul li::marker{
+    color: #000;
+}
+
+ul li{
+    color: #0C51A7;
+    font-weight: bold;
+}
+
+.colors li:nth-child(1){
+    color: #591B98;
+}
+
+.colors li:nth-child(2){
+    color: #E5245E;
+}
+.colors li:nth-child(3){
+    color: #E95E10;
+}
+
+.center{
+    text-align: center;
+}
+
+footer{
+    font-family: alice, serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 0 48px 0;
+}
+
+footer img{
+    width: 16px;
+    height: 16px;
+    vertical-align:middle;
+       
+}
